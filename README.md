@@ -1,4 +1,4 @@
-buffers
+node-buffers
 =======
 
 Treat a collection of Buffers as a single contiguous partially mutable Buffer.
@@ -22,12 +22,12 @@ slice
     bufs.push(new Buffer([1,2,3]));
     bufs.push(new Buffer([4,5,6,7]));
     bufs.push(new Buffer([8,9,10]));
-    
+
     console.dir(bufs.slice(2,8))
 
 output:
 
-    $ node examples/slice.js 
+    $ node examples/slice.js
     <Buffer 03 04 05 06 07 08>
 
 splice
@@ -39,13 +39,13 @@ splice
         new Buffer([4,5,6,7]),
         new Buffer([8,9,10]),
     ]);
-    
+
     var removed = bufs.splice(2, 4);
     console.dir({
         removed : removed.slice(),
         bufs : bufs.slice(),
     });
-    
+
 output:
 
     $ node examples/splice.js
