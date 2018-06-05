@@ -9,9 +9,7 @@ everything over.
 This is a cleaner more Buffery rehash of
 [bufferlist](http://github.com/substack/node-bufferlist).
 
-[![build status](https://secure.travis-ci.org/substack/node-buffers.png)](http://travis-ci.org/substack/node-buffers)
-
-example
+Example
 =======
 
 slice
@@ -52,7 +50,7 @@ output:
     { removed: <Buffer 03 04 05 06>,
       bufs: <Buffer 01 02 07 08 09 0a> }
 
-methods
+Methods
 =======
 
 Buffers(buffers)
@@ -123,7 +121,7 @@ Convert the buffer collection to a single buffer, equivalent with `.slice(0, buf
 Decodes and returns a string from the buffer collection.
 Works just like `Buffer.prototype.toString`
 
-license
+License
 =======
 
 MIT/X11
