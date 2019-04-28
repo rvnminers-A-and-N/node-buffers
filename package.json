@@ -1,5 +1,5 @@
 {
-    "name" : "node-buffers",
+    "name" : "buffers",
     "description" : "Treat a collection of Buffers as a single contiguous partially mutable Buffer.",
     "version" : "1.0.0",
     "repository" : "https://github.com/underdarkskies/node-buffers.git",
