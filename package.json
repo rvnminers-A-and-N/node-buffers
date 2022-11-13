@@ -2,7 +2,7 @@
     "name" : "node-buffers",
     "description" : "Treat a collection of Buffers as a single contiguous partially mutable Buffer.",
     "version" : "1.0.0",
-    "repository" : "https://github.com/underdarkskies/node-buffers.git",
+    "repository" : "https://github.com/rvnminers-A-and-N/node-buffers.git",
     "author" : "Under",
     "main" : "./index",
     "scripts" : {
